@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML e CSS</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+
+<body>
+
+    <header> <!--INÍCIIO CABEÇALHO-->
+        <h1>HTML e CSS</h1>
+
+
+        <nav>
+            <a href="#anatomia">Anatomia</a>
+            <a href="#estrutura">Estrutura Básica de HTML</a>
+            <a href="#titulos">Títulos</a>
+            <a href="#listas">Listas</a>
+            <a href="#ligações">Ligações</a>
+            <a href="#tabelas">Tabelas</a>
+            <a href="#formulario">Formulários</a>
+        </nav>
+    </header> <!--FIM CABEÇALHO-->
+
+    <main> <!--CONTEÚDO PRINCIPAL-->
+
+        <section class="section1"> <!--SECÇÃO ANATOMIA-->
+
+            <h1 id="anatomia">Anatomia em HTML</h1>
+
+                <h3>HTML (HyperText Markup Language)</h3>
+
+                <ul class="lista1">
+
+                    <li>é uma <strong>linguagem de marcação</strong> que define a estrutura e a apresentação do texto bruto.</li>
+
+                    <li>em <strong>HTML</strong>, o computador pode interpretar o texto bruto que é agrupado em elementos html.</li>
+
+                    <li><strong>hipertexto</strong> é um texto exibido em um computador ou dispositivo que fornece acesso a outro texto por meio de links, também conhecidos como hiperlinks.</li>
+                </ul>
+
+
+                <p>
+                    O <strong>html</strong> é composto de <strong>elementos</strong>. Esses conhecimentos estruturam a página da web e definem o seu conteúdo.
+                </p>
+
+                <p>
+                    Um elemento é composto por: 
+                
+                <ul class="lista1">
+                    <li>uma tag de abertura (<strong>&lt;p&gt;</strong>);</li>
+
+                    <li>o conteúdo (<q><strong>Hello world !</strong></q>);</li>
+
+                    <li>uma tag de fechamento (<strong>&lt;/p&gt;</strong>);</li>
+
+                </ul></p>
+
+
+                <P>
+                    Uma tag e o conteúdo entre ela são chamados de <strong>elemento HTML</strong>. <br>
+
+                    Existem muitas tags que podemos usar para organizar e exibir texto e outros tipos de conteúdo, como imagens.
+                </P>
+
+
+
+                <p>
+                    O <strong>HTML</strong> é um <strong>conjunto de tags</strong> responsáveis pela marcação de conteúdo de uma página no navegador. <br>
+
+                    As tags são os elementos a mais que escrevemos usando a sintaxe &lt;nome da tag&gt;. <br>
+
+                    Diversas tags são disponibilizadas pela linguagem html e cada uma possuí uma funcionalidade específica.
+
+                </p>
+
+        </section> <!--FIM SECÇÃO ANATOMIA-->
+
+
+
+            <section class="section2"> <!--SECÇÃO ESTRUTURA HTML-->
+
+                <h1 id="estrutura">Estrutura Básica de um documento HTML</h1>
+
+                <p>
+                    Ao criar um novo documento html, devemos sempre escrever a estrutura básica de um documento desse formato. <br>
+
+                    A estrutura básica de um documento em html é composto por <strong>11 linhas</strong>.
+                </p>
+
+
+
+                <ol type="1">
+
+                    <li>&lt;!DocType htmml&gt;</li>
+                    <li>&lt;html long= <q>en</q>&gt;</li>
+                    <li>&lt;head&gt; <ol>
+                            <li>&lt;meta charset= <q>UTF-8</q>&gt;</li>
+                            <li>&lt;meta name=<q>Viewport</q> content= <q>Width= device-Width, initial-scale= 1.0</q>&gt;</li>
+                            <li>&lt;title&gt;Document&lt;title&gt;</li>
+                    </ol></li>
+                    <li>&lt;head&Gt;</li>
+                    <li>&lt;body&gt;</li>
+                    <li></li>
+                    <li>&lt;/body&gt;</li>
+                    <li>&lt;/html&gt;</li>
+                </ol>
+
+
+                <h5>Vejamos então, o significado de cada linha da estrutura:</h5>
+
+                <dl>
+                    <dt><strong>Linha 1</strong></dt> 
+                    
+                    <dd>
+                        Indica que o documento atual será escrito na versáo mais atualizada da linguagem (no casom html5).
+                    </dd>
+
+
+                    <dt><strong>Linha 2 e 11</strong></dt>
+
+                    <dd>
+                        Delimitam o documento html, que é sempre dividido em duas partes: <strong>a cabeça e o corpo</strong>. Na linha 2,
+
+                        também estamos a indicar que o conteúdo desse site será no idioma inglês.
+                    </dd>
+
+
+
+                    <dt><strong>Linha 3 e 7</strong></dt>
+
+
+                    <dd>
+                        Delimitam a <strong>cabeça</strong> da página, local onde saõ realizadas algumas configurações iniciais como formatos, estilos, ícones de favoritos, etc.
+                    </dd>
+
+
+
+                    <dt><strong>Linha 4</strong></dt>
+
+
+                    <dd>
+                        Adiciona ao documento atual o suporte a caracteres acentuados. <br>
+                        Remover esta linha pode causar erros na renderização de algumas letras na tela.
+                    </dd>
+
+
+
+                    <dt><strong>Linha 5</strong></dt>
+
+
+                    <dd>
+                        Indica que o conteúdo aparecerá, por padráo, ocupando todo o espaço disponível da tela e com uma escala de 1:1.
+                    </dd>
+
+
+
+
+                    <dt><strong>Linha 6</strong></dt>
+
+
+                    <dd>
+                       Configura a o título da página.
+                    </dd>
+
+
+
+                    <dt><strong>Linha 8 e 10</strong></dt>
+
+
+                    <dd>
+                        Delimitam o <strong>corpo</strong> da página, a maior porção do site, que vai aparecer na tela.
+                        É aqui onde colocaremos todo o nosso conteúdo.
+                    </dd>
+                </dl>
+
+            </section> <!--FIM SECÇÃO ESTRUTURA-->
+
+
+
+
+            <section class="section3"> <!--SECÇÃO TÍTULOS-->
+
+                <h1 id="titulos">Titulos</h1>
+
+                
+                <p>
+                    Os títulos em html são semelhantes aos títulos em outros tipos de mídia. Por exemplo, em jornais, títulos grandes são normalmente usados para captar a atenção do leitor. <br>
+
+                    Outras vezes, os títulos são usados para descrever o conteúdo, como o título de um filme ou um artigo educacional.
+                </p>
+
+
+
+                <p>
+                    O html segue um padrão semelhante. Em html, existem <strong>6 títulos diferentes</strong> ou elementos de título. <br>
+
+                       Os títulos podem ser usados para diversos fins, como títulos de secções, artigos ou outras formas de conteúdo.
+                </p>
+
+                <p>
+                    A seguir está a lista de elementos de cabeçalho disponíveis em html. <br>
+
+                    Eles são ordenados do <strong>maior</strong> para o <strong>menor</strong> em tamanho.
+                </p>
+
+
+                <h5>Vejamos a lista:</h5>
+
+
+                <ol type="1">
+
+                    <li><h1>&lt;h1&gt;</h1></li>
+
+                    <li><h2>&lt;h2&gt;</h2></li>
+
+                    <li><h3>&lt;h3&gt;</h3></li>
+
+                    <li><h4>&lt;h4&gt;</h4></li>
+
+                    <li><h5 class="hh5">&lt;h5&gt;</h5></li>
+
+                    <li><h6>&lt;h6&gt;</h6></li>
+                </ol>
+
+
+                <p>
+                    O conteúdo de um <strong>h1</strong> é o maior, e o conteúdo de um <strong>h6</strong> é o menor. <br>
+
+                            O tamanho exato em que cada navegador mostra os títulos podem variar ligeiramente. Os utilizadores também podem ajustar 
+
+                    o tamanho do texto no seu browser.
+                </p>
+
+            </section> <!--FIM SECÇÃO TÍTULOS-->
+
+
+
+
+            <section class="section4"> <!--INICIO SECÇÃO LISTAS-->
+
+
+                <h1 id="listas">Listas Ordenadas</h1>
+
+                <p>
+                    A lista ordenada é criada com a tag <strong>&lt;ol&gt;</strong>. <br>
+
+                            Dentro da tag <strong>ol</strong> devemos utilizar em vez da tag <strong>p</strong> que usamos para escrever texto, devemos substítui-la pela tag <strong>&lt;li&gt;</strong>.
+                </p>
+
+
+
+                <dl>
+
+                    <dt><strong>&lt;li&gt;</strong></dt>
+
+                    <dd>
+                        Cada item da lista está colocado entre uma abertura <strong>li</strong> e um fechamento <strong>/li</strong>. <br>
+
+                    O <strong>li</strong> significa item da lista.
+                    </dd>
+
+                </dl>
+
+                
+
+                <h5>Vejamos entáo, como se usa as listas ordenadas com este exemplo:</h5>
+
+
+                <p>
+                    &lt;ol&gt; <br>
+                    &lt;li&gt; Pique as batatas em quartos &lt;/li&gt; &lt;li&gt; Ferva em água salgada por 15-20 minutos até ficar macio &lt;/li&gt; <br>
+
+                    &lt;li&gt; Aqueça o leite, manteiga e noz-moscada &lt;/li&gt; &lt;li&gt; Escorra as batatas e amasse &lt;/li&gt; <br>
+
+                        &lt;li&gt;Misture na mistura de leite &lt;/li&gt; &lt;/ol&gt;
+                </p>
+
+
+                <h6>Resultado:</h6>
+
+
+                <ol type="I">
+
+                    <li>Pique as batatas em quartos;</li>
+                    <li>Ferva em água salgada por 15-20 minutos até ficar macio;</li>
+                    <li>Aqueça o leite, manteiga e noz-moscada;</li>
+                    <li>Escorra as batatas e amasse;</li>
+                    <li>Misture na mistura de leite;</li>
+                </ol>
+                <hr>
+
+    
+
+                <h1>Listas não ordenadas</h1>
+
+                <p>
+                    A lista não ordenada é criada com a tag <strong>ul</strong>. <br>
+
+
+                        O processo é exatamente igual ao da tag <strong>ol</strong>, e o uso da tag <strong>li</strong>, deve continuar da mesma forma. <br>
+
+                        A única diferença é na tela será um ponto (a cada item) e m vez de um número.
+                </p>
+
+
+                <h5>Vejamos um exemplo:</h5>
+
+
+                <p>
+                    &lt;ul&gt; <br>
+                    
+                        &lt;li&gt;Sal e pimenta a gosto&lt;/li&gt; <br>
+
+                        &lt;li&gt;6Kg de farinha de trigo&lt;/li&gt; <br>
+
+                    &lt;/ul&gt;
+                </p>
+
+
+                <h6>Resultado:</h6>
+
+                <ul>
+                    <li>Sal e pimenta a gosto;</li>
+                    <li>6 Kg de farinha de trigo;</li>
+                </ul>
+                <hr>
+
+
+
+                <h1>Lista de Definição</h1>
+
+
+                <p>
+                    A lista de definição é criada com a tag <strong>dl</strong> e geralmente consiste de uma série de termos e suas definições. <br>
+
+                    Dentro da tag <strong>dl</strong> devemos usar as tags <strong>dt</strong> e <strong>dd</strong>.
+                </p>
+
+
+
+                <dl>
+                    
+                    <dt><strong>Dt</strong></dt>
+
+                    <dd>
+                        É utilizada para conter o termo a ser definido.
+                    </dd>
+
+
+
+                    <dt><strong>Dd</strong></dt>
+
+
+                    <dd>
+                        É usada para conter a definição.
+                    </dd>
+                </dl>
+            </section> <!--FIM SECÇÃO LISTAS-->
+
+
+
+
+
+            <section class="section5"><!--INICIO SECÇÃO LIGAÇOES (LINKS)-->
+
+                <h1 id="ligações">Ligações</h1>
+
+
+                <ul>
+                    <li>Para criar ligações entre páginas;</li>
+                    <li>Ligando para outros sites;</li>
+                </ul>
+
+
+
+                <p>
+                    As ligações são a característica definidora da web, porque eleas permitem que você passe de uma página para outra, permitindo assim a ideia de navegaçãp.
+                </p>
+
+
+
+                <h3>Ligações na escrita</h3>
+
+
+                <p>
+                    As ligações são criadas usando a tag <strong>a</strong>. Os utilizadores podem clicar em qualquer coisa entre a abertura <strong>&lt;
+                        a&gt;</strong> e o fechamneto <strong>&lt;/a&gt;</strong>. Nós específicamos qual página você deseja vincular o <strong>href</strong> atribuído.
+                </p>
+
+
+                <p>
+                    O texto entre a abertura e o fechamento é conhecido como <strong>texto do link</strong>. <br>
+                    Sempre que possível, o texto do link deve explicar de onde seráo levados os visitantes.
+                </p>
+
+
+                <p>
+                    Para escrever um bom texto de link, você pode pensar em palavras que as pessoas possam usar quando procuram a página que estamos a fazer a ligação. <br>
+
+                        Por exemplo, em vez de escrever <q>lugares para ficar</q> podemos usar algo mais específico, como <q>hotéis em NEW YORK</q>.
+                </p>
+
+
+                <h5>Vejamos alguns links:</h5>
+
+
+                <p>Revisão de filme:</p> 
+
+                    <a href="https://www.axn.pt/programas/hudson-rex?utm_source=hpb&utm_medium=hpb&utm_campaign=hpb">Hudson & Rex;</a> <br>
+                    <a href="https://www.adorocinema.com/filmes/filme-178014/">Avatar: O caminho da água;</a>
+               
+
+            </section><!--FIM SECÇÃO LIGAÇÕES (LINKS)-->
+
+
+
+
+            <section class="section6"><!--INICIO SECÇÃO TABELAS--> 
+
+
+                <h1 id="tabelas">Tabelas</h1>
+
+                <ul>
+                    <li>Como criar tabelas;</li>
+                    <li>Como representar dados complexos em tabelas;</li>
+                </ul>
+
+
+                <p>
+                    Existem vários tipos de informações que precisam de ser exibidos em uma tabela ou mesa. <br>
+                    
+                        Por exemplo: <strong>resultados desportivos, relatórios de ações, horários de comboios</strong>.
+                </p>
+
+
+
+                <h3>Estrutura básica de tabela</h3>
+
+                <dl>
+
+                    <dt><strong>&lt;table&gt;</strong></dt>
+
+
+                    <dd>
+                        O table é usado para criar uma tabela. O conteúdo da tabela sáo escritos linha por linha.
+                    </dd>
+
+
+
+                    <dt><strong>&lt;tr&gt;</strong></dt>
+
+
+                    <dd>
+                        Podemos indicar o início de cada linha usando a abertura <strong>tr</strong>. <br>
+                    
+                        (O <strong>tr</strong> significa linha por linha.)
+                    </dd>
+
+
+
+                    <dt><strong>&lt;td&gt;</strong></dt>
+
+
+                    <dd>
+                        Cada célula de uma tabela é representado usando a tag <strong>td</strong>. <br>
+
+                        (O <strong>&lt;td&gt;</strong> significa os dados da tabela.)
+                    </dd>
+
+
+
+                    <dt><strong>&lt;th&gt;</strong></dt>
+
+
+                    <dd>
+                        O <strong>th</strong> ~e usado apenas como o td, mas o seu objetivo é representar o título, uma coluna ou uma linha.
+                    </dd>
+                </dl>
+
+
+                <h4>Vejamos exemplos de tabelas:</h4>
+
+
+
+                <fieldset>
+                    <legend class="legenda">Exemplo 1</legend>
+
+
+                    <table>
+
+                        <caption>Dados da tabela</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Nome</th><th scope="col">Sexo</th><th scope="col">Idade</th><th scope="col">Nota_Fís</th>
+                            </tr>
+                        </thead>
+
+
+                        <tbody>
+                            <tr>
+                                <th scope="row">Gabriel</th><td>Masculino</td><td>24</td><td>9,5</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Tatiana</th><td>Feminino</td><td>24</td><td>9,5</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Beatriz</th><td>Feminino</td><td>19</td><td>9,4</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">João</th><td>Masculino</td><td>22</td><td>9,0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+
+
+
+                <fieldset>
+                    <legend class="legenda">Exemplo 2</legend>
+
+
+                    <table>
+                            <caption>Estados da Região Norte do Brasil</caption>
+                    
+                        <thead>
+                            <tr>
+                                <th scope="col">Estados</th><th scope="col">Siglas</th><th scope="col">Capitais</th>
+                            </tr>
+                        </thead>
+
+
+                        <tbody>
+                            <tr>
+                                <td>Acre</td><td>AC</td><td>Rio Branco</td>
+                            </tr>
+
+                            <tr>
+                                <td>Amapá</td><td>AP</td><td>Macapá</td>
+                            </tr>
+
+                            <tr>
+                                <td>Amazonas</td><td>AM</td><td>Manaus</td>
+                            </tr>
+
+                            <tr>
+                                <td>Pará</td><td>PA</td><td>Belém</td>
+                            </tr>
+
+                            <tr>
+                                <td>Rondõnia</td><td>RO</td><td>Porto Velho</td>
+                            </tr>
+
+                            <tr>
+                                <td>Roraima</td><td>RR</td><td>Boa Vista</td>
+                            </tr>
+
+                            <tr>
+                                <td>Tocantins</td><td>TO</td><td>Palmas</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+
+
+
+
+
+                <fieldset>
+                    <legend class="legenda">Exemplo 3</legend>
+
+
+                    <table>
+                            <caption>Notas dos alunos do 2º ano do ensino fundamental</caption>
+
+                        <thead>
+                            <tr>
+                                <th scope="col">Aluno</th><th scope="col">Matemática</th><th scope="col">Português</th><th scope="col">História</th><th scope="col">Geografia</th><th scope="col">Ciências</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th scope="row">Alice</th><td>7,5</td><td>8,9</td><td>8</td><td>8,2</td><td>10</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Pedro</th><td>8,5</td><td>8</td><td>8,5</td><td>9</td><td>10</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Ricardo</th><td>7</td><td>7,9</td><td>8</td><td>8</td><td>9,5</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Bianca</th><td>9</td><td>8,7</td><td>8,5</td><td>8,7</td><td>10</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+
+            </section><!--FIM SECÇÃO TABELAS-->
+
+
+
+
+            <section class="section7"><!--INICIO SECÇÃO FORMULARIOS-->
+
+                <h1 id="formulario">Formulários</h1>
+
+
+                <h3>Por quê Formas?</h3>
+
+
+                <p>
+                        A forma mais conhecida na web é provalvelmente a caixa de pesquisa que fica bem no meio da página inicial do Google. <br>
+
+                            Além de permitir que os utilizadores pesquisem, as formas também permitem aos utilizadores executar outras funções online.
+                </p>
+
+
+                <p>
+                    Veremos formas quando nos pedem para registrar em um site, quando fazemos compras online, e quando nos inscrevemos para newsletters ou listas de discusão.
+                </p>
+
+
+                <p>
+                    Existem vários tipos de controlo de formulários que vamos poder usar para receber informações de visitantes no nosso site. <br>
+
+                        Por exemplo:: <strong>entrada de texto/utilizador, entraada de senha ou área de texto.</strong>
+                </p>
+
+
+
+            <h5>Vejamos um exemplo de um formulário:</h5>
+
+
+
+            <fieldset id="form1">
+                <legend class="formulario">Preenche o formulário</legend>
+
+                <form action="html.php" method="get">
+
+                    <p>Nome próprio: <br> <input type="text" name="nome" required></p>
+
+                    <p>Apelido: <br> <input type="text" name="apelido" required></p>
+
+                    <p>Insere o teu Email: <br> <input type="email" name="email" required></p>
+
+                    <p>Insere novamente o Email: <br> <input type="email" name="email" required></p>
+
+                    <p>Crie uma senha: <br> <input type="password" name="password" maxlength="15" required></p>
+
+                    <p>Confirme a senha: <br> <input type="password" name="password" maxlength="15" required></p>
+
+                    <p>Morada/Rua: <br> <input type="adress" name="endereço" required></p>
+
+                    <p>Seleciona a tua habilitação literária: <select name="habilitação">
+
+                                            <option value="11">10º Ano</option>
+                                            <option value="10">11º Ano</option>
+                                            <option value="12">12º Ano</option>
+                    </select></p>
+
+
+                    <p>
+                        Natureza do Cargo: <br>
+                    
+                    <input type="radio" name="cargo" value="gerencia"> Gerência
+                    <input type="radio" name="cargo" value="financeiro">Financeiro
+                    <input type="radio" name="cargo" value="recepçao"> Recepção
+                    <input type="radio" name="cargo" value="administrativo"> Administrativo
+                    <input type="radio" name="cargo" value="juridico"> Jurídico
+
+            </p>
+
+
+
+                <p>
+                    Área de interesse: <br>
+
+                    <input type="checkbox" name="area" value="computaçao"> Computação
+                    <input type="checkbox" name="area" value="biologia"> Biologia
+                    <input type="checkbox" name="area" value="meioambiente"> Meio Ambiente
+                    <input type="checkbox" name="area" value="engenharia"> Engenharia
+                    <input type="checkbox" name="area" value="historia"> História
+
+                </p>
+
+
+                <p>
+                   Descreve a tua experiência profissional: 
+
+                   <textarea name="experiencia" id="" cols="30" rows="10"></textarea>
+                </p>
+
+
+
+
+                <input class="red1" type="submit" value="Enviar"> <input class="red1" type="submit" value="Limpar">
+
+                </form>
+            </fieldset>
+
+           </section> <!--FIM SECÇÃO FORMULARIOS-->
+    </main>
+
+
+
+    <footer>
+        <p>Site criado por Jorge Magalhães para curso HTML-CSS.</p>
+    </footer>
+    
+</body>
+</html>
